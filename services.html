@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>MNE Basement Solutions</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body{
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                background-image: URL("https://3.bp.blogspot.com/-f2XX6_CJNNc/VCaHU7fHwJI/AAAAAAAAGig/ORo4Kah5u-Q/s1600/simple-gray-texture.jpg");
+                background-attachment: fixed;
+                background-position: center;
+                margin: 0;
+            }
+            
+            a{
+                color: white;
+            }
+            
+            .sidenav {
+                width: 130px;
+                position: fixed;
+                z-index: 1;
+                top: 100px;
+                left: 10px;
+                background: #eee;
+                overflow-x: hidden;
+                padding: 8px 0;
+            }
+
+            .sidenav a {
+                padding: 6px 8px 6px 16px;
+                text-decoration: none;
+                font-size: 25px;
+                color: #2196F3;
+                display: block;
+            }
+
+            .sidenav a:hover {
+                color: #064579;
+            }
+
+            
+
+            
+            .intro{
+                background: white;
+                margin-left: 150px;
+            }
+            
+            h1{
+                font-family: "Times New Roman", Times, serif;
+            }
+            
+            
+            .header {
+                padding: 10px 16px;
+                background: #555;
+                color: #f1f1f1;
+                text-align: center;
+            }
+            
+            .header:hover{
+                background-color: rgba(85, 85, 85, 0.7);
+            }
+
+
+            .sticky {
+                position: fixed;
+                top: 0;
+                width: 100%;
+            }
+            
+            .sticky + .content {
+                padding-top: 102px;
+            }
+            
+            
+            
+            
+            
+        </style>
+        
+        
+    </head>
+    
+    
+    
+    
+    
+    <body>
+    
+    <div class="sidenav">
+      <a href="index.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="clients.html">Clients</a>
+    </div>
+    
+    
+    
+    
+<div class="header" id="myHeader">
+    <h2><a href = "contactpage.html">Contact Us!</a></h2>
+</div>
+
+<script>
+    window.onscroll = function() {myFunction()};
+
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            header.classList.add("sticky");
+        } else {
+            header.classList.remove("sticky");
+        }
+    }
+    </script>
+
+    
+    
+        <div class = "content">
+            <div class = "intro">
+                <h1>
+                    This is where we specify exactly what we can do
+                </h1>
+                <p>
+                    We are really good at being sexy <br>
+                </p>
+            </div>
+            
+            
+            
+            
+        </div>
+    </body>
+    
+    
+    
+</html>
+
+
